@@ -13,9 +13,7 @@ void loop() {
     const int dotDelay = 400;
     const int dashDelay = 1200;
     const int spaceDelay = 2000;
-    
-    digitalWrite(led3, HIGH);
-    
+   
     while(true)
     {
         for(int i = 0; i < strlen(string); i++ ) 
