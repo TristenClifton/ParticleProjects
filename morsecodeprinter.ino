@@ -1,12 +1,6 @@
-//Device id : e00fce68bab294496ea5812c
-
-int led2 = D0;
-int led1 = D6;
-int led3 = D7;
+int led1 = D7;
 void setup() {
     pinMode(led1, OUTPUT);    
-    pinMode(led2, OUTPUT);
-    pinMode(led3, OUTPUT);
 }
 void loop() {
     
