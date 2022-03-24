@@ -33,9 +33,7 @@ void loop() {
             }
             if(character==space)
             {
-                digitalWrite(led3, HIGH);
                 delay(spaceDelay);
-                digitalWrite(led3, LOW);
             }
             delay(tickDelay);
         }
